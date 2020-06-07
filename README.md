@@ -5,7 +5,7 @@ OpenNI2
 
 libspnav? 
 
-coin (lib) - paco
+coin (lib) - paco, check other 3 coin libs (soqt [marked deprecated] quarter pivy)
 
 flann
 
@@ -19,7 +19,14 @@ vtk
 
 pcl
 
+
 requires, already in ports:
+
+py3-qt5
+
+py3-ply
+
+zipios++
 
 boost
 
@@ -44,3 +51,5 @@ openmpi
 netgen
 
 openscad
+
+freetype
