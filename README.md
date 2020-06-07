@@ -19,7 +19,7 @@ vtk
 
 pcl
 
-requires:
+requires, already in ports:
 
 boost
 
