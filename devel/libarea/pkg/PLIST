@@ -1,0 +1,16 @@
+@comment $OpenBSD: PLIST,v$
+@so area.so
+include/area/
+include/area/Arc.h
+include/area/Area.h
+include/area/AreaDxf.h
+include/area/AreaOrderer.h
+include/area/Box2D.h
+include/area/Circle.h
+include/area/Curve.h
+include/area/Point.h
+include/area/PythonStuff.h
+include/area/dxf.h
+include/area/kurve/
+include/area/kurve/geometry.h
+lib/libarea.so.0
