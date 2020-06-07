@@ -1,0 +1,14 @@
+$OpenBSD$
+
+Index: CMake/SharedLibraryPathInfo.cxx
+--- CMake/SharedLibraryPathInfo.cxx.orig
++++ CMake/SharedLibraryPathInfo.cxx
+@@ -31,7 +31,7 @@
+ #endif
+ 
+ /* FreeBSD */
+-#if defined(__FreeBSD__)
++#if defined(__FreeBSD__) || defined(__OpenBSD__)
+ # define CMAKE_SHARED_LDD "ldd"
+ # define CMAKE_SHARED_LDD_FLAGS ""
+ # define CMAKE_SHARED_LDPATH "LD_LIBRARY_PATH"

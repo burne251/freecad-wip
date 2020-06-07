@@ -1,0 +1,14 @@
+$OpenBSD$
+
+Index: include/2.3.6/med_outils.h
+--- include/2.3.6/med_outils.h.orig
++++ include/2.3.6/med_outils.h
+@@ -156,7 +156,7 @@
+ 
+ /*Pour eviter le bug solaris*/
+ #ifndef __APPLE__
+-#include <malloc.h>
++#include <stdlib.h>
+ #endif
+ 
+ 

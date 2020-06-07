@@ -1,0 +1,15 @@
+The purpose of the MED module is to provide a standard for storing and
+recovering computer data associated to numerical meshes and fields, and to
+facilitate the exchange between codes and solvers.
+
+The persistent data storage is based upon HDF format (like CGNS, a standard
+developed by Boeing and NASA in the area of Computational Fluid Dynamic).
+
+MED also provides structures to hold data on meshes and fields. These
+structures are exchanged between solvers, hide the communication level (CORBA
+or MPI), and offer persistence (read/write in .med files).
+
+The main benefit of a common exchange format is reduced complexity of code
+coupling. It also allows sharing such high level functionalities as computation
+of nodal connectivity of sub-elements (faces and edges), arithmetic operations
+on fields, entity location functionalities, and interpolation toolkit.
