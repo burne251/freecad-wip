@@ -1,0 +1,31 @@
+$OpenBSD: patch-coin_src_tidbits_cpp,v 1.0.0 2020/09/03 12:14:32 burne251@umn.edu Exp $
+
+--- src/tidbits.cpp
++++ src/tidbits.cpp
+@@ -43,16 +43,16 @@
+ #include "config.h"
+ #endif /* HAVE_CONFIG_H */
+
+-#include <cassert>
+-#include <cerrno>
+-#include <cmath> /* isinf(), isnan(), finite() */
+-#include <cfloat> /* _fpclass(), _isnan(), _finite() */
+-#include <clocale>
+-#include <cstring> /* strncasecmp() */
+-#include <cstdio>
+-#include <cstdlib> /* atio() */
+-#include <cctype> /* tolower() */
+-#include <cstdlib> /* atexit(), putenv(), qsort(), atof() */
++#include <assert.h>
++#include <errno.h>
++#include <math.h> /* isinf(), isnan(), finite() */
++#include <float.h> /* _fpclass(), _isnan(), _finite() */
++#include <locale.h>
++#include <string.h> /* strncasecmp() */
++#include <stdio.h>
++#include <stdlib.h> /* atio() */
++#include <ctype.h> /* tolower() */
++#include <stdlib.h> /* atexit(), putenv(), qsort(), atof() */
+ #ifdef HAVE_WINDOWS_H
+ #include <windows.h> /* GetEnvironmentVariable() */
+ #endif /* HAVE_WINDOWS_H */
