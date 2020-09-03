@@ -1,11 +1,12 @@
-# freecad-wip
+# openbsd-ports-wip
+FreeCAD:
 new dependencies required:
 
 OpenNI2
 
 libspnav? 
 
-coin (lib) - paco, check other 3 coin libs (soqt [marked deprecated] quarter pivy)
+coin (lib) ->finished
 
 flann
 
@@ -15,7 +16,7 @@ orocos_kd1
 
 opencascade - oce in ports
 
-vtk
+vtk ->finished
 
 pcl
 
