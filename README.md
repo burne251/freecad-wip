@@ -16,7 +16,7 @@ orocos_kd1
 
 opencascade - oce in ports
 
-vtk ->finished
+vtk ->finished, still needs *a lot* of work consolidating dependencies
 
 pcl
 
